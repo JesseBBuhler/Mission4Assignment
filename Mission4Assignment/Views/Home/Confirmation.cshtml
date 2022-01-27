@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Form Submitted";
+}
+
+@model Mission4Assignment.Models.MovieCollectionForm
+
+<div class="text-center">
+    <h1 class="display-4">@Model.Title Has Been Added To The Database!</h1>
+    <h2>Want to submit another movie?</h2>
+    <a class="btn btn-primary" asp-controller="Home" asp-action="Form">Click Here</a>
+</div>
