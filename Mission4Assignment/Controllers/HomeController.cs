@@ -23,7 +23,11 @@ namespace Mission4Assignment.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Podcasts()
+        {
+            return View();
+        }
+        public IActionResult Form()
         {
             return View();
         }
